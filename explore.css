@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'text';
+    src: url("fonts/ABeeZee/ABeeZee-Regular.ttf");
+}
+@font-face {
+    font-family: 'titleBold';
+    src: url("fonts/Abhaya_Libre/AbhayaLibre-Bold.ttf");
+}
+@font-face {
+    font-family: 'titleNormal';
+    src: url("fonts/Abhaya_Libre/AbhayaLibre-Medium.ttf");
+}
+@font-face {
+    font-family: 'titleSoft';
+    src: url("fonts/Abhaya_Libre/AbhayaLibre-Regular.ttf");
+}
+
+/* MAIN */
+
+body, head {
+    margin: 0;
+    background-color: #E6DEDB;
+}
+
+/* NAVBAR */
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav {
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    float: left;
+    margin: 0;
+    text-align: center;
+    width: 25%;
+  }
+  
+  nav li a {
+    display: block;
+    color: #333;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 1s;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  
+  nav li a:hover {
+    background-color: #ddd;
+    color: #887777;
+  }  
+
+/* COVER */
+
+.topBackground {
+    background-image: url(photos/cover.jpeg);
+    height: 700px;
+    width: 100%;
+    object-fit: fill;
+    display: block;
+}
+
+/* TITLE */
+
+h1 {
+    color: #887777;
+    font-family: 'titleSoft';
+    font-size: 55px;
+    text-align: center;
+}
+
+p {
+    color: #453e3e;
+    font-family: 'titleSoft';
+    font-size: 20px;
+    padding: 0px 30px 30px 30px;
+}
+
+/* BODY CONTENT */
+
+.overallBody {
+    align-items: center;
+}
+
+.attraction1 {
+    flex: 50%;
+    background-color: #c8bbbb;
+    color: white;
+    padding: 30px;
+    top: 0; 
+    text-align: center;
+}
+
+.attraction2 {
+    flex: 50%;
+    background-color: #a08f89;
+    color: white;
+    padding: 30px;
+    top: 0; 
+    text-align: center;
+}
+
+.aboutText {
+    width: 60%;
+    margin: auto;
+    font-family: "text";
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: "titleSoft";
+}
+
+h3 {
+    font-size: 25px;
+    font-family: "titleSoft"; 
+}
